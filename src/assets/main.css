@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Oswald:wght@200..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #F03C3D;
+  --primary-hover: #FF4E4F;
+  --dark: #333333;
+  --gray-1: #F4F7FB;
+  --gray-2: #F6F8F9;
+  --gray-3: #F2F2F2;
+}
+
+body{
+  font-family: "Oswald", sans-serif;
+}
+
+a, button {
+  transition: all .3s ease !important;
+}
+
+.vertical{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-orientation: mixed;
+}
+.bg-video-player {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  height: 56.25vw;
+  width: 177.78vh;
+  border-width: 0;
+  outline-width: 0;
+}
