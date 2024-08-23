@@ -6,7 +6,7 @@
         <p class="uppercase text-lg tracking-widest">Страница не  найдена или <br> находится в разработке</p>
         <div>
           <nuxt-link to="/">
-            <UiButton text="на главную" color="dark" />
+            <UiButton text="на главную страницу" color="dark" />
           </nuxt-link>
         </div>
       </div>
