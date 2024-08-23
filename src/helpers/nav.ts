@@ -1,23 +1,23 @@
 export const navs = [
   {
     text: 'Коллекции',
-    link: '/'
+    link: '/collections'
   },
   {
     text: 'О компании ',
-    link: '/'
+    link: '/about'
   },
   {
     text: 'География',
-    link: '/'
+    link: '/geo'
   },
   {
     text: 'природа',
-    link: '/'
+    link: '/nature'
   },
   {
     text: 'Контакты ',
-    link: '/'
+    link: '/contacts'
   }
 
 ]
