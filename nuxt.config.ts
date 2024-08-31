@@ -12,6 +12,9 @@ export default defineNuxtConfig({
   },
   components: ['src/components'],
   css: ['~/src/assets/main.css'],
+  modules: [
+    'nuxt-swiper'
+  ],
   postcss: {
     plugins: {
       tailwindcss: {},

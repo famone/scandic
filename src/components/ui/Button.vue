@@ -5,6 +5,9 @@
   <button v-else-if="props.color === 'dark'" class="uppercase rounded-lg bg-black text-white text-lg py-4 px-8 font-medium hover:bg-neutral-800">
     {{ props.text }}
   </button>
+  <button v-else-if="props.color === 'gray'" class="uppercase rounded-lg bg-gray-1 text-lg py-4 px-8 font-medium hover:bg-neutral-200">
+    {{ props.text }}
+  </button>
 </template>
 
 <script setup lang="ts">

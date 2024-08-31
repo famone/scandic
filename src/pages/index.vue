@@ -3,6 +3,8 @@
     <HomeHero />
     <HomeCollections />
     <HomeCharacter />
+    <HomeOriginal />
+    <HomeBigText />
   </div>
 </template>
 
@@ -13,7 +15,3 @@ definePageMeta({
 })
 
 </script>
-
-<style scoped>
-
-</style>
