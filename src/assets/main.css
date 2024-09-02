@@ -48,4 +48,7 @@ a, button {
   .fadeUp {
     @apply opacity-0 translate-y-20
   }
+  .input-main{
+    @apply w-full font-light text-xl px-4 py-6 outline-none bg-transparent mb-4 border-b-2 focus:border-black transition-all
+  }
 }

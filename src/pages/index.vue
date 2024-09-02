@@ -8,6 +8,7 @@
     <HomeUnuquie />
     <HomePartners />
     <HomeFeedback />
+    <UiNextPage />
   </div>
 </template>
 

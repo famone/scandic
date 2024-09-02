@@ -8,11 +8,13 @@
             Остались <strong>вопросы</strong>? <br>
             Напишите нам
           </h2>
-          <div class="rounded-xl p-20 bg-gray-1">
-            <input type="text" placeholder="ВАШЕ ИМЯ" class="w-full font-light text-xl px-4 py-6 focus:outline-none bg-transparent mb-4 border-b-2 transition-all">
-            <input type="text" placeholder="ГОРОД" class="w-full font-light text-xl px-4 py-6 focus:outline-none bg-transparent mb-4 border-b-2 transition-all">
-            <input type="text" placeholder="ТЕЛЕФОН" class="w-full font-light text-xl px-4 py-6 focus:outline-none bg-transparent mb-4 border-b-2 transition-all">
-            <input type="text" placeholder="E-MAIL" class="w-full font-light text-xl px-4 py-6 focus:outline-none bg-transparent mb-4 border-b-2 transition-all">
+          <div class="rounded-xl px-16 py-8 bg-gray-1">
+            <input type="text" placeholder="ВАШЕ ИМЯ" class="input-main">
+            <input type="text" placeholder="ГОРОД" class="input-main">
+            <input type="text" placeholder="ТЕЛЕФОН" class="input-main">
+            <input type="text" placeholder="E-MAIL" class="input-main">
+            <UiButton text="Отправить" color="blue" class="w-full mt-2" />
+            <p class="mt-4 text-neutral-400 font-light text-lg text-center">Нажимая на кнопку «Отправить», вы соглашаетесь с политикой обработки персональных данных компании</p>
           </div>
         </div>
       </div>
