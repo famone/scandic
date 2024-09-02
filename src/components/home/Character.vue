@@ -18,18 +18,6 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 onMounted(() => {
-  // Анимация для изменения баночки
-  // gsap.to('#box', {
-  //   y: 500,
-  //   scale: 1.05,
-  //   scrollTrigger: {
-  //     trigger: '#box',
-  //     start: 'bottom bottom',
-  //     end: 'bottom top',
-  //     scrub: true
-  //   }
-  // })
-
   // Анимация для замедленного движения баночки
   gsap.to('#bg-tin', {
     y: 300, // Двигаем вниз на 500px

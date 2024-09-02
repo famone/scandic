@@ -6,6 +6,8 @@
     <HomeOriginal />
     <HomeBigText />
     <HomeUnuquie />
+    <HomePartners />
+    <HomeFeedback />
   </div>
 </template>
 
