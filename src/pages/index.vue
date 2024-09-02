@@ -5,6 +5,7 @@
     <HomeCharacter />
     <HomeOriginal />
     <HomeBigText />
+    <HomeUnuquie />
   </div>
 </template>
 

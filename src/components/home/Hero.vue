@@ -11,6 +11,10 @@
       playsinline
     />
     <div class="container mx-auto relative z-20">
+      <div class="h-44 w-44 absolute right-0 bottom-0 flex justify-center items-center ">
+        <img src="/img/scroll.svg" class="absolute top-0 left-0 h-full w-full animate-spin">
+        <ArrowLongDownIcon class="text-white h-14 " />
+      </div>
       <h1 class="uppercase text-[110px] leading-[130px] text-white font-thin">
         <span id="hero1" class="fadeUp block translate-y-5">ДРАЖЕ</span>
         <strong id="hero2" class="fadeUp block">SCANDIC MINTS</strong>
@@ -22,6 +26,7 @@
 </template>
 
 <script setup lang="ts">
+import { ArrowLongDownIcon } from '@heroicons/vue/24/outline/index.js'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 
@@ -95,5 +100,7 @@ onMounted(() => {
 </script>
 
 <style scoped>
-
+.animate-spin{
+  animation-duration: 8s;
+}
 </style>
