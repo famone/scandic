@@ -11,7 +11,7 @@
         </div>
       </div>
     </div>
-    <Vue3Marquee>
+    <Vue3Marquee pause-on-hover>
       <img
         v-for="(img, index) in partners"
         :key="index"

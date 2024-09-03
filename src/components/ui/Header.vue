@@ -1,7 +1,9 @@
 <template>
   <header class="py-6 z-20" :class="{ 'absolute top-0 left-0 w-full text-white': props.homepage}">
     <div class="container mx-auto flex justify-between items-center">
-      <img src="/img/logo.svg" class="h-20">
+      <nuxt-link to="/">
+        <img src="/img/logo.svg" class="h-20">
+      </nuxt-link>
       <div class="flex gap-4 items-center">
         <ul class="flex gap-4 uppercase">
           <li v-for="(item, index) in navs" :key="index" class="text-lg hover:opacity-60 transition-all">

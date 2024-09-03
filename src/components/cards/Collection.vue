@@ -10,7 +10,9 @@
       <p class="text-xl text-white max-w-[80%]">
         Мы вложили в него весь наш 15-летний опыт работы с драже и постарались создать лучшее в мире производство конфет в жестяной упаковке.
       </p>
-      <UiButton text="Подробнее" />
+      <nuxt-link to="/collections/original" class="block">
+        <UiButton text="Подробнее" />
+      </nuxt-link>
     </div>
   </div>
 </template>
